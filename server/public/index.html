@@ -1,0 +1,23 @@
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <title></title>
+        <meta name="description" content="">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        
+        
+        
+        <script src="vendors/angular.min.js"></script>
+        <script src="vendors/angular-animate.min.js"></script>
+        <script src="vendors/angular-aria.min.js"></script>
+        <script src="vendors/angular-material.min.js"></script>
+    </head>
+    <body ng-app="myApp">
+        <script> angular.module('MyApp',['ngMaterial'])
+            .run(function(){
+                console.log('myApp is ready!');
+            })
+        </script>
+       
+    </body>
+</html>

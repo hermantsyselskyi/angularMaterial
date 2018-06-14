@@ -1,0 +1,26 @@
+{
+  "name": "ngmaterial",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hermantsyselskyi/angularMaterial.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/hermantsyselskyi/angularMaterial/issues"
+  },
+  "homepage": "https://github.com/hermantsyselskyi/angularMaterial#readme",
+  "dependencies": {
+    "angular": "^1.7.2",
+    "angular-animate": "^1.7.2",
+    "angular-aria": "^1.7.2",
+    "angular-material": "^1.1.9",
+    "animate": "^1.0.0"
+  }
+}
